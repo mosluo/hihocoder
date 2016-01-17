@@ -1,3 +1,4 @@
+/*
 #1000 : A + B
 时间限制:1000ms
 单点时限:1000ms
@@ -18,3 +19,16 @@
 样例输出
 3
 7
+*/
+
+//代码
+#include <iostream>
+using namespace std;
+
+int main(void) {
+    int a, b;
+    while(cin >> a >> b) {
+    	cout << a + b << endl;
+    }
+    return 0;
+}
